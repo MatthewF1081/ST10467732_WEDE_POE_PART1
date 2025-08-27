@@ -10,7 +10,7 @@ Module: WEDE5020
 
 Github repository:(https://github.com/MatthewF1081/WEDE-HTML-FILE.git)
 
-Personal GitHub: https://github.com/MatthewF1081
+
 
 Description
 --
