@@ -19,6 +19,9 @@ Alu-cab is a company that creates a house on wheels, what I mean about this is t
 Fetures and objectives 
 --
 . The website will have menus the will take you to the different pages 
+
 . The website will have a map to show you the different distribution hubs
-. The website will have photos to show you what the products are and what the intended use is 
+
+. The website will have photos to show you what the products are and what the intended use is
+
 . You will be able to Contact Alu-cab to get assistance
