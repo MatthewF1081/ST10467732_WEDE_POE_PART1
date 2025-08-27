@@ -1,0 +1,110 @@
+//Form Submission: Contact Us
+$('#contact_form_main').on('submit', function(e) {
+	console.log('dataLayer event: contact_us');
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		event: 'contact_us',
+		enquiryType: $('#enquiry_type').val(),
+		productCategory: $('#contact_category').val(),
+		product: $('#contact_product').val(),
+		country: $('#contact_country').val(),
+		email: $('#contact_email').val(),
+		phoneNumber: $('#contact_number').val(),
+	});
+});
+
+
+//Find a Dealer
+$('.eKfRKT').on('click', function(e) {
+    console.log('dataLayer event: find_a_dealer');
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        event: 'find_a_dealer',
+        dealerName: $(this).closest('.sc-hmdomO.kTsQte.marker-modal.mobile-marker-modal').find('.hybnyb').text(),
+		dealerLocation: $(this).closest('.sc-hmdomO.kTsQte.marker-modal.mobile-marker-modal').find('.kZseLa').text(),
+    });
+});
+
+
+//Compare Products
+$('#product-compare-btn').on('click', function(e) {
+// 	var mainProduct = $(this).closest('.compare-card').find('.post-title').text();
+	var mainProduct = $('.product-details-nav h1').text();
+	console.log('dataLayer event: compare_a_product | mainProduct:['+mainProduct+']');
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		event: 'compare_a_product',
+		mainProduct: mainProduct,
+	});
+});
+
+
+// //Find a Product/Search By Vehicle
+// $('#filter-form').on('submit', function(e) {
+// 	var make = $('#vehicle-make-filter').val() || 'Empty';
+// 	var model = $('#vehicle-model-filter').val() || 'Empty';
+// 	var year = $('#vehicle-year-filter').val() || 'Empty';
+// 	console.log('dataLayer event: find_a_product | make:['+make+'] | model:['+model+'] | year:['+year+']');
+// 	window.dataLayer = window.dataLayer || [];
+// 	window.dataLayer.push({
+// 		event: 'find_a_product',
+// 		make: make,
+// 		model: model,
+// 		year: year,
+// 	});
+// });
+
+//Find a Product/Search By Vehicle
+// $('#filter-form').on('submit', function(e) {
+$('#find-products').on('click', function(e) {
+	//alert('Finding Products');
+	e.preventDefault(); // Prevent actual form submission
+	var make = $('#vehicle-make-filter').val() || 'Empty';
+	var model = $('#vehicle-model-filter').val() || 'Empty';
+	var year = $('#vehicle-year-filter').val() || 'Empty';
+	console.log('dataLayer event: find_a_product | make:[' + make + '] | model:[' + model + '] | year:[' + year + ']');
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		event: 'find_a_product',
+		make: make,
+		model: model,
+		year: year,
+	});
+});
+
+
+//Instructions
+$('.resource-download').on('click', function(e) {
+	console.log('dataLayer event: instructions');
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		event: 'instructions',
+		mainProduct: $(this).text(),
+		manualName: $(this).prop('href')
+	});
+});
+
+
+//Adding a product to compare
+$('.addProd').on('click', function(e) {
+	var mainProduct = $('.compare-grid .individual-grid .compare-card').find('.post-title').text() || 'Empty';
+	var addProduct = $(this).data('prodname') || 'Empty';
+	console.log('dataLayer event: adding_a_product | [' + mainProduct + '] | [' + addProduct + ']');
+	//var product2 = $('.compare-grid .individual-grid .added:visible').find('.post-title').text() || 'Empty';
+	//var product3 = $('.compare-grid .individual-grid .secondAdded:visible').find('.post-title').text() || 'Empty';
+	//console.log('dataLayer event: adding_a_product | [' + product1 + '] | [' + product2 + '] | [' + product3 + ']');
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		event: 'adding_a_product',
+		mainProduct: mainProduct,
+		addProduct: addProduct,
+	});
+});
+
+
+////iFrame test
+// $("#atlist-embed").on("load", function(){
+// 	$(this).contents().on("click", function(){
+// 		console.log("Click detected inside iframe.");
+// 	});
+// });
