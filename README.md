@@ -25,3 +25,6 @@ Fetures and objectives
 . The website will have photos to show you what the products are and what the intended use is
 
 . You will be able to Contact Alu-cab to get assistance
+
+<img width="1914" height="883" alt="image" src="https://github.com/user-attachments/assets/98744a4d-201f-4345-8354-bf94b0c19459" />
+
