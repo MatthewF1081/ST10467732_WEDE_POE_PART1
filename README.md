@@ -28,4 +28,5 @@ Fetures and objectives
 
 <img width="1914" height="883" alt="image" src="https://github.com/user-attachments/assets/98744a4d-201f-4345-8354-bf94b0c19459" />
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/3f01b29f-2ddf-4516-a26f-7aa6fffdafee" />
+<img width="1350" height="725" alt="image" src="https://github.com/user-attachments/assets/1499cf7f-a50f-4e79-8078-8dc8d5978fe0" />
 
