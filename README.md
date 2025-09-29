@@ -27,4 +27,5 @@ Fetures and objectives
 . You will be able to Contact Alu-cab to get assistance
 
 <img width="1914" height="883" alt="image" src="https://github.com/user-attachments/assets/98744a4d-201f-4345-8354-bf94b0c19459" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/3f01b29f-2ddf-4516-a26f-7aa6fffdafee" />
 
