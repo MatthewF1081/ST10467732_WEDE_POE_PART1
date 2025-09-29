@@ -33,8 +33,11 @@ Fetures and objectives
 References
 --
 •	(Bergh, 2025) available at https://www.alu-cab.com/productcategories/campers/ accessed 06 august 2025
+
 •	(Diamond, 2025) Available at https://www.domains.co.za/domain-registration?keyword=buy%20co%20za%20domain&matchtype=b&adposition=&device=c&devicemodel=&creative=469281662344&copy=[name]&gad_source=1&gad_campaignid=11242775186&gbraid=0AAAAAD7prVLE2TxVpr8BEBEbiqkAKAOyw&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX5DJ8YVh3EwO-oI3U-Xr1UnpzMDxUdRbxpQdNNg5HLOPz7OmvGjBHUaAkhaEALw_wcB accessed 06 August 2025
+
 •	(Osterloh, 2025) Available at https://hostafrica.co.za/web-hosting/?utm_source=google&utm_medium=cpc&utm_campaign=web-hosting&utm_adgroup=free-domain&adid=759837874471&adposition=&keyword=web%20hosting&device=c&gad_source=1&gad_campaignid=22695731697&gbraid=0AAAAADgfjqV0gaRsPq0SRD28rLlXqqEsC&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX7XMsHfUb7i8-fLyjnuvkKGtVkNyKl-TLzCs0JOkt3lLFX_YnRQ02MaAv-sEALw_wcB  accessed 29 September 2025
+
 •	(Thorsell-Arntsen, 2025) Available at https://www.w3schools.com/ Accessed 29 September 2025
 
 
